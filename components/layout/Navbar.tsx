@@ -32,7 +32,7 @@ export function Navbar() {
         </nav>
         <div className="flex items-center gap-4">
           <Link
-            href="#book"
+            href="#contact"
             className="px-5 py-2.5 rounded-full bg-blue-600 hover:bg-blue-500 text-white text-sm font-medium transition-all shadow-[0_0_15px_rgba(59,130,246,0.3)] hover:shadow-[0_0_25px_rgba(59,130,246,0.5)]"
           >
             Book a Discovery Call
