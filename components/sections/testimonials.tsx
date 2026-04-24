@@ -5,7 +5,7 @@ import { Star, Quote } from "lucide-react";
 
 const testimonials = [
   {
-    content: "RocketAI fundamentally transformed how we operate. Their AI agents process our support tickets 10x faster than our previous manual system. It's not just an upgrade; it's a paradigm shift.",
+    content: "RocketSolutions fundamentally transformed how we operate. Their AI agents process our support tickets 10x faster than our previous manual system. It's not just an upgrade; it's a paradigm shift.",
     author: "Sarah Jenkins",
     role: "CTO, TechFlow Inc.",
     rating: 5,
@@ -17,7 +17,7 @@ const testimonials = [
     rating: 5,
   },
   {
-    content: "We were struggling with static web infrastructure that couldn't scale. RocketAI migrated us to a highly performant Next.js edge architecture. Our conversion rates are up 40%.",
+    content: "We were struggling with static web infrastructure that couldn't scale. RocketSolutions migrated us to a highly performant Next.js edge architecture. Our conversion rates are up 40%.",
     author: "Emily Chen",
     role: "VP of Growth, Horizon Dynamics",
     rating: 5,

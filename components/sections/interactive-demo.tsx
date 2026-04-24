@@ -141,7 +141,7 @@ export function InteractiveDemo() {
               </div>
               <div className="flex-1 bg-slate-900/50 rounded-md py-1.5 px-3 flex items-center justify-center text-xs text-slate-400 border border-slate-700 max-w-xl mx-auto truncate">
                 <Layout className="w-3 h-3 mr-2 shrink-0" />
-                https://demo.rocketai.dev
+                https://demo.rocketsolutions.org
               </div>
             </div>
 

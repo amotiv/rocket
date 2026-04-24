@@ -30,7 +30,7 @@ export function Footer() {
             <Link href="/" className="flex items-center gap-2 mb-4">
               <RocketIcon className="w-6 h-6 text-blue-500" />
               <span className="text-xl font-bold tracking-tight text-white">
-                Rocket<span className="text-blue-500">AI</span>
+                Rocket<span className="text-blue-500">Solutions</span>
               </span>
             </Link>
             <p className="text-slate-400 text-sm mb-6">
@@ -91,7 +91,7 @@ export function Footer() {
         
         <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row items-center justify-between">
           <p className="text-slate-500 text-sm">
-            © {new Date().getFullYear()} RocketAI. All rights reserved.
+            © {new Date().getFullYear()} RocketSolutions. All rights reserved.
           </p>
         </div>
       </div>

@@ -37,7 +37,7 @@ export function Hero() {
           className="text-5xl md:text-7xl font-extrabold tracking-tight mb-6"
         >
           Modernize Your Operations <br className="hidden md:block" />
-          with <span className="text-gradient">RocketAI</span>
+          with <span className="text-gradient">RocketSolutions</span>
         </motion.h1>
 
         <motion.p

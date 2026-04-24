@@ -16,7 +16,7 @@ export function Navbar() {
         <Link href="/" className="flex items-center gap-2">
           <RocketIcon className="w-8 h-8 text-blue-500" />
           <span className="text-xl font-bold tracking-tight text-white">
-            Rocket<span className="text-blue-500">AI</span>
+            Rocket<span className="text-blue-500">Solutions</span>
           </span>
         </Link>
         <nav className="hidden md:flex items-center gap-8">
