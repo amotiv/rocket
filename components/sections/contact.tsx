@@ -49,7 +49,7 @@ export function Contact() {
                   </div>
                   <div>
                     <h3 className="text-white font-medium text-lg mb-1">Direct Contact</h3>
-                    <p className="text-slate-400">hello@rocketsolutions.org</p>
+                    <p className="text-slate-400">business@rocketsolutions.org</p>
                   </div>
                 </div>
               </div>
