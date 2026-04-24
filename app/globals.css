@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #0f172a;
+  --color-foreground: #f8fafc;
+  
+  --color-primary-50: #eff6ff;
+  --color-primary-100: #dbeafe;
+  --color-primary-500: #3b82f6;
+  --color-primary-600: #2563eb;
+  --color-primary-glow: rgba(59, 130, 246, 0.5);
+
+  --color-accent-500: #a855f7;
+  --color-accent-glow: rgba(168, 85, 247, 0.5);
+
+  --font-sans: var(--font-inter);
+}
+
+@layer base {
+  :root {
+    --background: #0f172a; /* slate-900 */
+    --foreground: #f8fafc; /* slate-50 */
+    --card: #1e293b; /* slate-800 */
+    --card-foreground: #f8fafc;
+    --border: #334155; /* slate-700 */
+    --primary: #3b82f6;
+    --primary-foreground: #ffffff;
+    --accent: #a855f7;
+    --accent-foreground: #ffffff;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-[var(--border)];
+  }
+  body {
+    @apply bg-[var(--background)] text-[var(--foreground)] font-sans antialiased;
+  }
+}
+
+.glassmorphism {
+  @apply bg-slate-900/60 backdrop-blur-md border-b border-slate-800;
+}
+
+.glow-blue {
+  box-shadow: 0 0 20px var(--color-primary-glow);
+}
+
+.glow-purple {
+  box-shadow: 0 0 20px var(--color-accent-glow);
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500;
+}
