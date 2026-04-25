@@ -13,9 +13,9 @@ export function Navbar() {
       className="fixed top-0 left-0 right-0 z-50 glassmorphism"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2">
-          <RocketIcon className="w-8 h-8 text-blue-500" />
-          <span className="text-xl font-bold tracking-tight text-white">
+        <Link href="/" className="flex items-center gap-1.5 md:gap-2 shrink-0">
+          <RocketIcon className="w-6 h-6 md:w-8 md:h-8 text-blue-500" />
+          <span className="text-lg md:text-xl font-bold tracking-tight text-white">
             Rocket<span className="text-blue-500">Solutions</span>
           </span>
         </Link>
@@ -30,12 +30,13 @@ export function Navbar() {
             Contact
           </Link>
         </nav>
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-4 shrink-0">
           <Link
             href="#contact"
-            className="px-5 py-2.5 rounded-full bg-blue-600 hover:bg-blue-500 text-white text-sm font-medium transition-all shadow-[0_0_15px_rgba(59,130,246,0.3)] hover:shadow-[0_0_25px_rgba(59,130,246,0.5)]"
+            className="px-4 py-2 md:px-5 md:py-2.5 rounded-full bg-blue-600 hover:bg-blue-500 text-white text-xs md:text-sm font-medium transition-all shadow-[0_0_15px_rgba(59,130,246,0.3)] hover:shadow-[0_0_25px_rgba(59,130,246,0.5)] whitespace-nowrap"
           >
-            Book a Discovery Call
+            <span className="sm:hidden">Book Call</span>
+            <span className="hidden sm:inline">Book a Discovery Call</span>
           </Link>
         </div>
       </div>
